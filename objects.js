@@ -3,7 +3,7 @@ let playlist = {
 }
 
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist.artistName = 'Rambo'
+  Object.assign({}, playlist, {MichaelJackson:['triller', 'My Bloody Valentine']})
   return playlist
 }
 

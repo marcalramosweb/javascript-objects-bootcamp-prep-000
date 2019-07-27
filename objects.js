@@ -8,6 +8,6 @@ function updatePlaylist(playlist, name, song){
 }
 
 function updatePlaylist(playlist, name, song){
-  playlist([MichaelJackson] = 'Samba');
+  playlist[MichaelJackson] = 'Samba';
   return playlist
 }

@@ -1,5 +1,6 @@
 let playlist = {
-  MichaelJackson: 'triller'
+  MichaelJackson: 'triller',
+  
 }
 
 function updatePlaylist(playlist, artistName, songTitle){

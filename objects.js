@@ -3,8 +3,8 @@ let playlist = {
   Gazuza: song
 }
 
-function updatePlaylist(playlist, artistName, songTitle){
-  Object.assign({}, playlist, {MichaelJackson:['triller', 'My Bloody Valentine']})
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
   return playlist
 }
 
